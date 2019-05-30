@@ -3,6 +3,8 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
+SET(GCC_COVERAGE_COMPILE_FLAGS "-lstdc++fs")
+
 INCLUDE_DIRECTORIES(include)
 LINK_DIRECTORIES(libs)
 
